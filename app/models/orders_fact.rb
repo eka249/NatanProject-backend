@@ -1,0 +1,2 @@
+class OrdersFact < ApplicationRecord
+end
