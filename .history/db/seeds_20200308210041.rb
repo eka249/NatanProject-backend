@@ -12,7 +12,6 @@
         FirstName: Faker::Name.last_name,
         City: Faker::Address.city
     )
-end
 
 100.times do
     Product.create(
@@ -22,7 +21,6 @@ end
 
 
     )
-end
 
 30.times do
     Supplier.create(
@@ -31,7 +29,6 @@ end
         City: Faker::Location.city,
         Country: Faker::Location.country
     )
-end
 
     30.times do
         Customer.create(
@@ -40,5 +37,3 @@ end
             City: Faker::Location.city,
             Country: Faker::Location.country
         )
-    end
-    
